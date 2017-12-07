@@ -142,21 +142,20 @@ a:hover {
 }
 
 body {
-  background-color: ;
+  background-color: #206040;
   font-family: 'Hind', sans-serif;
   color: white;
-  background: #206040 url("..img/ghosthoaxbanner.png") no-repeat center center;
+
 }
 
 .bodywrapper {
-  margin-left: 0 auto;
   margin-top: 2%;
   max-width: 1200px;
-  background-color: ;
+  background: #206040 url("../images/ghosthoaxbanner.png") no-repeat center center;
 }
 .author {
   max-width: 20%;
-  margin-left: 2%;
+  margin-left: 3%;
   padding: 2%;
   float: left;
   background-color: black;
