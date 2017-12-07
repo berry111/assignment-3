@@ -116,12 +116,9 @@ a:hover {
   margin-left: 8%;
 }
 
-}
+
 .myheader {
-  /*
-  background: transparent url("img/ghosthoaxbanner.png") no-repeat center center;
-  */
-  color: red;
+  background: transparent url("/images/ghosthoaxbanner.png") no-repeat center center;
 }
 
 .logo {
