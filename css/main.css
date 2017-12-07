@@ -94,6 +94,9 @@ a {
   text-decoration: none;
   margin-right: 2%;
 }
+a:hover {
+  color:red;
+}
 
 .clearfix:before,
 .clearfix:after {
@@ -115,7 +118,9 @@ a {
 
 }
 .myheader {
+  /*
   background: transparent url("img/ghosthoaxbanner.png") no-repeat center center;
+  */
   color: red;
 }
 
@@ -132,13 +137,15 @@ a {
   font-family: 'Barlow Semi Condensed', sans-serif;
   position: relative;
   padding-left: 1%;
-  margin-top: -2%;
+  margin-left: 2%;
+  margin-top: ;
 }
 
 body {
-  background-color: #206040;
+  background-color: ;
   font-family: 'Hind', sans-serif;
   color: white;
+  background: #206040 url("..img/ghosthoaxbanner.png") no-repeat center center;
 }
 
 .bodywrapper {
