@@ -45,6 +45,9 @@ textarea {
 }
 
 
+
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -69,6 +72,10 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+
+
+
 /* END BOX MODEL SETTINGS */
 
 body {
@@ -79,6 +86,18 @@ body {
   padding: 0;
 }
 
+
+
+@media only screen and (max-width: 500px) {
+    body {
+
+    }
+    .author {
+      position: relative;
+    }
+
+
+}
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
 
@@ -113,21 +132,26 @@ a:hover {
 }
 
 .wrapper {
-  margin-left: 8%;
-}
+
+ margin-left: 8%;
 
 }
+
 .myheader {
-  /*
-  background: transparent url("img/ghosthoaxbanner.png") no-repeat center center;
-  */
-  color: red;
+
+ background: transparent url("../images/ghosthoaxbanner.png") repeat center center;
+ margin-left: -10%;
+max-height: 100%;
+padding-top: 5%;
+padding-bottom: 5%;
+
 }
 
 .logo {
   float: top left;
   margin-top: 2%;
   margin-left: 1%;
+  margin-left: 10%;
   position: relative;
 }
 
@@ -137,7 +161,7 @@ a:hover {
   font-family: 'Barlow Semi Condensed', sans-serif;
   position: relative;
   padding-left: 1%;
-  margin-left: 2%;
+  margin-left: 10%;
   margin-top: ;
 }
 
@@ -151,7 +175,7 @@ body {
 .bodywrapper {
   margin-top: 2%;
   max-width: 1200px;
-  background: #206040 url("../images/ghosthoaxbanner.png") no-repeat center center;
+  position: absolute;
 }
 .author {
   max-width: 20%;
@@ -160,6 +184,7 @@ body {
   float: left;
   background-color: black;
   text-align: center;
+  position: relative;
 }
 
 .authorabout img {
@@ -178,6 +203,7 @@ body {
   float: left;
   background-color: ;
   font-size: 16px;
+
 }
 
 .showtitle {
@@ -228,4 +254,10 @@ body {
   text-align: center;
   margin-top: 10%;
   margin-bottom:5%;
+}
+
+.post1post {
+  margin-bottom: 5%;
+    padding: 5%;
+  background-color: black;
 }
