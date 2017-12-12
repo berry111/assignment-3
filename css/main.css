@@ -74,6 +74,8 @@ html {
 }
 
 
+
+
 /* END BOX MODEL SETTINGS */
 
 body {
@@ -85,6 +87,21 @@ body {
 }
 
 
+
+@media only screen and (max-width: 500px) {
+    body {
+
+    }
+
+    .author {
+
+    }
+    .content {
+      max-width: 100%;
+    }
+
+
+}
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
 
@@ -126,16 +143,11 @@ a:hover {
 }
 
 .myheader {
-
  background: transparent url("../images/ghosthoaxbanner.png") repeat center center;
-   margin-left: -10%;
-  max-height: 100%;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-.myheader {
-  background: transparent url("/images/ghosthoaxbanner.png") no-repeat center center;
+ margin-left: -10%;
+max-height: 100%;
+padding-top: 5%;
+padding-bottom: 5%;
 }
 
 .logo {
@@ -144,6 +156,7 @@ a:hover {
   margin-left: 1%;
   margin-left: 10%;
   position: relative;
+  max-width: 100%;
 }
 
 .links {
@@ -151,8 +164,8 @@ a:hover {
   color: white;
   font-family: 'Barlow Semi Condensed', sans-serif;
   position: relative;
-  padding-left: 1%;
-  margin-left: 10%;
+  padding-left: 10%;
+  margin-left: 4%;
   margin-top: ;
 }
 
@@ -167,19 +180,20 @@ body {
 .bodywrapper {
   margin-top: 2%;
   max-width: 1200px;
-  /*position: absolute;*/
+  position: absolute;
 }
-
 .author {
-
   background-color: black;
   text-align: center;
   position: relative;
+  padding: 5%;
+  margin-right: 10%;
 }
 
 .authorabout img {
   border-radius: 50%;
-  max-width: 100%;
+  max-width: 70%;
+  padding: 5%;
 }
 
 .authorabout h1 {
@@ -188,29 +202,35 @@ body {
 }
 
 .content {
-  /*background-color: ;*/
+  background-color: ;
   font-size: 16px;
+  margin-right: 10%;
 
 }
 
 /* Desktop */
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 800px) {
   .bodywrapper {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-right: 10%;
   }
   .author {
-    max-width: 20%;
-    margin-left: 3%;
-    padding: 2%;
+    max-width: 30%;
+    padding-top: 2%;
   }
+
   .content {
-    max-width: 50%;
-    margin-left: 10%;
+    max-width: 60%;
     order: 2;
   }
+
+  .links {
+    margin-left: 2%;
+  }
 }
+
 
 .showtitle {
   font-size: 18px;
