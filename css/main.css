@@ -74,8 +74,6 @@ html {
 }
 
 
-
-
 /* END BOX MODEL SETTINGS */
 
 body {
@@ -87,21 +85,6 @@ body {
 }
 
 
-
-@media only screen and (max-width: 500px) {
-    body {
-
-    }
-
-    .author {
-
-    }
-    .content {
-      max-width: 100%;
-    }
-
-
-}
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
 
@@ -145,11 +128,11 @@ a:hover {
 .myheader {
 
  background: transparent url("../images/ghosthoaxbanner.png") repeat center center;
- margin-left: -10%;
-max-height: 100%;
-padding-top: 5%;
-padding-bottom: 5%;
-
+   margin-left: -10%;
+  max-height: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 .myheader {
   background: transparent url("/images/ghosthoaxbanner.png") no-repeat center center;
@@ -184,8 +167,9 @@ body {
 .bodywrapper {
   margin-top: 2%;
   max-width: 1200px;
-  position: absolute;
+  /*position: absolute;*/
 }
+
 .author {
 
   background-color: black;
@@ -204,7 +188,7 @@ body {
 }
 
 .content {
-  background-color: ;
+  /*background-color: ;*/
   font-size: 16px;
 
 }
