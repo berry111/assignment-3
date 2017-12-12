@@ -137,6 +137,7 @@ a:hover {
 
 .wrapper {
 
+<<<<<<< HEAD
  margin-left: 8%;
 
 <<<<<<< HEAD
@@ -150,6 +151,11 @@ max-height: 100%;
 padding-top: 5%;
 padding-bottom: 5%;
 
+=======
+
+.myheader {
+  background: transparent url("/images/ghosthoaxbanner.png") no-repeat center center;
+>>>>>>> 1e3b39cd8fadb3b8bc6a70d5baea345ec503002c
 =======
 
 .myheader {
@@ -209,6 +215,25 @@ body {
   background-color: ;
   font-size: 16px;
 
+}
+
+/* Desktop */
+@media only screen and (min-width: 960px) {
+  .bodywrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .author {
+    max-width: 20%;
+    margin-left: 3%;
+    padding: 2%;
+  }
+  .content {
+    max-width: 50%;
+    margin-left: 10%;
+    order: 2;
+  }
 }
 
 /* Desktop */
